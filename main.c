@@ -13,6 +13,10 @@ int main(int argc, char **argv) {
 		insert_vector_at(p_vec, i, count++);
 	}
 
+	insert_vector(p_vec, 6767);
+	int retval = search_vector(p_vec, 9999);
+	printf("retval: %d\n", retval);
+
 	print_vector(p_vec);
 
 	return 0;
